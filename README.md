@@ -1,24 +1,9 @@
-# README
+# Video Chat Test
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Rails 6 app for testing different options to implement a video chat functionality.
 
-Things you may want to cover:
+Several students of the current Web Dev batches at [Le Wagon Montreal](https://lewagon.com "Visit us!") have this type of feature in mind for their final projects, so I am investigating in advance the different possibilities.
 
-* Ruby version
+So far, I've tried [Daily](https://www.daily.co/)'s solution, which proved surprisingly simple to implement.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Next up is [Agora](https://www.agora.io/en/) 🕵
