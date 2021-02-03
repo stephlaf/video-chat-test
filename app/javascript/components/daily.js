@@ -8,8 +8,16 @@ const showHideDailyVideoChat = () => {
   button.removeEventListener('click', showHideDailyVideoChat);
   button.innerText = 'Stop Video Chat';
 
-  const callFrame = window.DailyIframe.createFrame();
-  callFrame.join({ url: 'https://projects.daily.co/Main_test_room' });
+  const callFrame = window.DailyIframe.createFrame({
+    showLeaveButton: true
+    // iframeStyle: {
+        // position: 'fixed',
+        // width: '80%',
+        // height: '100%'
+    // }
+  });
+
+  callFrame.join({ url: process.env.DAILY_URL });
 
   button.addEventListener('click', () => {
     callFrame.destroy();
