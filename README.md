@@ -7,3 +7,5 @@ Several students of the current Web Dev batches at [Le Wagon Montreal](https://l
 So far, I've tried [Daily](https://www.daily.co/)'s solution, which proved surprisingly simple to implement.
 
 Next up is [Agora](https://www.agora.io/en/) 🕵
+
+This is also the first time I use [dotenv-webpack](https://github.com/mrsteele/dotenv-webpack#description) in order to use `ENV` variables in `JS`.
