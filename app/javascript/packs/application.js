@@ -14,3 +14,9 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
+import { dailyVideoChatTriggering } from '../components/daily.js';
+
+document.addEventListener('turbolinks:load', () => {
+  dailyVideoChatTriggering();
+});
