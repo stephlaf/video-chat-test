@@ -8,7 +8,10 @@ const showHideDailyVideoChat = () => {
   button.removeEventListener('click', showHideDailyVideoChat);
   button.innerText = 'Stop Video Chat';
 
-  const callFrame = window.DailyIframe.createFrame({
+  const videoContainer = document.getElementById('videoContainer');
+  // console.log(videoContainer);
+
+  const callFrame = window.DailyIframe.createFrame(videoContainer, {
     showLeaveButton: true
     // iframeStyle: {
         // position: 'fixed',
