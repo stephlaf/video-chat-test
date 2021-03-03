@@ -20,7 +20,8 @@ const showHideDailyVideoChat = () => {
     // }
   });
 
-  callFrame.join({ url: process.env.DAILY_URL });
+  // callFrame.join({ url: process.env.DAILY_URL });
+  callFrame.join({ url: 'https://projects.daily.co/Main_test_room' });
 
   button.addEventListener('click', () => {
     callFrame.destroy();
