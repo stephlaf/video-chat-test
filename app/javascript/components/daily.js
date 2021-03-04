@@ -62,7 +62,7 @@ const dailyVideoChatTriggering = () => {
 };
 
 const deleteRooms = () => {
-  console.log('from deleteRooms');
+  // console.log('from deleteRooms');
   const options = {
     method: 'GET',
     headers: {
