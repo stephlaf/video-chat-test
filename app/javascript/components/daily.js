@@ -1,5 +1,5 @@
 const dailyApiKey = process.env.DAILY_API_KEY;
-console.log('Form daily.js, DAILY_API_KEY: ', dailyApiKey);
+// console.log('Form daily.js, DAILY_API_KEY: ', dailyApiKey);
 
 const resetDailyVideoChatTriggering = (button) => {
   button.innerText = 'Start Video Chat';
@@ -7,7 +7,7 @@ const resetDailyVideoChatTriggering = (button) => {
 };
 
 const startVideo = (button, callFrame) => {
-  console.log('From startVideo, daily url: ', process.env.DAILY_URL);
+  // console.log('From startVideo, daily url: ', process.env.DAILY_URL);
   // callFrame.join({ url: 'https://projects.daily.co/Main_test_room' });
   callFrame.join({ url: process.env.DAILY_URL });
 

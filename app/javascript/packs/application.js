@@ -23,4 +23,4 @@ document.addEventListener('turbolinks:load', () => {
 });
 
 
-console.log('Daily Api Key: ', process.env.DAILY_API_KEY);
+// console.log('Daily Api Key: ', process.env.DAILY_API_KEY);
