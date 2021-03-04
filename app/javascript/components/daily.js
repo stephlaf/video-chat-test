@@ -1,4 +1,5 @@
 const dailyApiKey = process.env.DAILY_API_KEY;
+console.log('Form daily.js, DAILY_API_KEY: ', dailyApiKey);
 
 const resetDailyVideoChatTriggering = (button) => {
   button.innerText = 'Start Video Chat';
