@@ -15,8 +15,12 @@ require("channels")
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-import { dailyVideoChatTriggering } from '../components/daily.js';
+import { dailyVideoChatTriggering, deleteRoomsButtonTriggering } from '../components/daily.js';
 
 document.addEventListener('turbolinks:load', () => {
   dailyVideoChatTriggering();
+  deleteRoomsButtonTriggering();
 });
+
+
+console.log('Daily Api Key: ', process.env.DAILY_API_KEY);
