@@ -1,0 +1,17 @@
+<h1>Bookings Show</h1>
+<%= link_to 'Home', root_path %>
+
+<% if @booking %>
+  <li>
+    URL: <%= @booking.video_url %>
+  </li> 
+  <li>
+    Start Time: <%= @booking.start_time %>
+  </li> 
+<% end %>
+
+<button id="dailyTrigger" data-video-url="<%= @booking.video_url %>" class="btn btn-sm btn-success">
+  Start Video Chat
+</button>
+
+<div id="videoContainer"></div>

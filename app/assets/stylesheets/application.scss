@@ -1,0 +1,10 @@
+@import "bootstrap/scss/bootstrap";
+
+#videoContainer {
+  border: 1px solid blue;
+  height: 70vh;
+  width: 70vw;
+  position: fixed;
+  bottom: 5vh;
+  left: 5vh;
+}
